@@ -10,7 +10,7 @@
 body{
     font-family: 'Noto Sans', sans-serif;
     background-color: #242728;
-    overflow-x: hidden;
+    overflow: hidden;
     box-sizing: border-box;
     
 }
