@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:ital,wght@1,300&family=Raleway:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #242728;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+#canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+
+li, a {
+    text-decoration: none;
+    color: #FFFF;
+    list-style: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #000;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navigation{
+    position: fixed;
+    padding-top: 400px;
+    inset: 0px 0px 0px 0px;
+    width: 6.5%;
+    min-height: 500px;
+    background: #b968c8;
+}
+
+.titulo_inicial h1{
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 180px;
+    margin-top: 170px;
+    font-size: 85px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.75);
+    padding-left: 14%;
+    font-size: 85px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.animacao-digitar{
+    animation: 500ms infinite normal, typing 4s steps(40) 0s normal;
+}
+
+.animacao-digitar-dois{
+    animation: 500ms infinite normal, typing-dois 4s steps(40) 0s normal;
+
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 18em;
+    }
+}
+
+@keyframes typing-dois{
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 18em;
+    }
+}
+
+h2{
+    color: #a32cd6;
+}
+
+
+.redes_sociais{
+    display: flex;
+    width: 100px;
+    color: #FFFF;
+    margin-left: 30%;
+    margin-top: 3%;
+    font-size: 40px;
+}
+
+.redes-sociais-botao i:hover{
+    color: #a32cd6;
+    transform: scale(1.1);
+}
+
+.left-logo{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 35%;
+    margin-right: 100px;
+    float: right;
+}
+
+
+.sobre_mim{
+    float: left;
+    margin-left: 17%;
+    margin-top: 150px;
+    font-size: 25px;
+    color: #FFFF;
+    text-align: center;
+}
+
+.rodape{
+    text-align: center;
+    color: aliceblue;
+    font-size: 100%;
+    margin-left: 45%;
+    margin-bottom: 36%;
+}
+
+.redes-sociais-botao img{
+    width: 50px;
+    border-radius: 10px;
+}
+
